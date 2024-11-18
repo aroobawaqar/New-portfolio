@@ -214,7 +214,7 @@ class _ContainerOneDesktopState extends State<ContainerOneDesktop>
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Text(
-                          'Siddique Qureshi',
+                          'Arooba Waqar',
                           style: GoogleFonts.inconsolata(
                               color: Colors.white,
                               fontSize: 42,

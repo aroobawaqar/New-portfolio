@@ -101,10 +101,11 @@ class ContainerOneMobile extends StatefulWidget {
 
 class _ContainerOneMobileState extends State<ContainerOneMobile>
     with TickerProviderStateMixin {
-  final String phoneNumber = '+9233366632717'; // WhatsApp number
-  final String email = 'email';
-  final String github = 'github profile';
-  final String linkedin = 'linkedin';
+  final String phoneNumber = '+923332004414'; // WhatsApp number
+  final String email = 'email:aroobawaqar.4414@gmail.com';
+  final String github = 'https://www.github.com/aroobawaqar';
+  final String linkedin = 'https://www.linkedin.com/in/arooba-waqar-b9559228a/';
+  final String upwork = 'https://www.upwork.com/freelancers/~019cc214e04f16c1a?';
 
   // Animations for text and social icons
   late AnimationController _textController;

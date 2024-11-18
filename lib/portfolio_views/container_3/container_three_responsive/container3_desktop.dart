@@ -32,17 +32,18 @@ class _ContainerthreeDesktopState extends State<ContainerthreeDesktop> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               ProjectWidget(
-                  projectName: 'Project One',
+                  projectName: 'Project One Gold Project',
                   projectDetails:
-                  'A Flutter app built for cross-platform mobile development, featuring state management with GetX and Firebase for data storage.'),
+                  'The beginner\' Gold price calculator app is a sipmle project design to help calculate the price of gold in different units such as tola masha and ratti.'),
               ProjectWidget(
-                  projectName: 'Project Two',
+                  projectName: 'Project two countdown timer',
                   projectDetails:
-                  'A Dart backend API integration project that handles dynamic user data and real-time operations using Firebase Cloud Functions.'),
+                  'A simple beginner level countdown timer app.'),
               ProjectWidget(
-                  projectName: 'Project Three',
+                  projectName: 'Project Three WhatsApp Clone',
                   projectDetails:
-                  'An eCommerce Flutter app with full API integration for product listings, cart management, and secure payments.'),
+                  'This project showcases a well-organized MVC(Model View Controller)archtitecture designed for a WhatsApp-like application'),
+
             ],
           ),
           SizedBox(height: 20),
@@ -50,17 +51,10 @@ class _ContainerthreeDesktopState extends State<ContainerthreeDesktop> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               ProjectWidget(
-                  projectName: 'Project Four',
+                  projectName: 'Project Four FaceBook',
                   projectDetails:
-                  'A social media app developed using Flutter, with real-time chat functionality, push notifications, and Firebase backend.'),
-              ProjectWidget(
-                  projectName: 'Project Five',
-                  projectDetails:
-                  'A personal blog website using Flutter Web, allowing users to create, edit, and share blog posts with real-time comments and reactions.'),
-              ProjectWidget(
-                  projectName: 'Project Six',
-                  projectDetails:
-                  'A portfolio website designed using Flutter Web to showcase my skills, projects, and expertise in mobile development.'),
+                  'This repository implements a well-structured MVC(Model View Controller)architecture for a FaceBook-like app'),
+
             ],
           ),
         ],

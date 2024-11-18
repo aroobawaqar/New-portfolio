@@ -48,18 +48,14 @@ class _ContainertwoDesktopState extends State<ContainertwoDesktop> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              ColumnWidget(
-                  text1: 'API Integration',
-                  text2:
-                  'I integrate third-party APIs into apps for enhanced functionality and data synchronization.'),
+             // ColumnWidget(
+                //  text1: 'API Integration',
+                //  text2:
+                 // 'I integrate third-party APIs into apps for enhanced functionality and data synchronization.'),
               ColumnWidget(
                   text1: 'GetX and BLoC State Management',
                   text2:
                   'I utilize GetX and BLoC for efficient state management, making apps more scalable and maintainable.'),
-              ColumnWidget(
-                  text1: 'Mentorship for Flutter',
-                  text2:
-                  'I offer mentorship to developers looking to learn Flutter and improve their skills in mobile development.'),
             ],
           ),
         ],
